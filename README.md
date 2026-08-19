@@ -39,8 +39,4 @@ The navbar and footer markup exists in exactly one place: `js/components.js`. Ea
 
 `js/projects-data.js` exports a single `PROJECTS` array of plain objects (title, summary, tags, year, links). `js/projects.js` reads that array, builds the tag-filter chips from whatever tags actually exist in the data, and renders one `.project-card` per entry with a template string — there's no hand-written project HTML anywhere. Adding a new project means adding one object to the array; nothing else needs to change.
 
-## Submission Checklist (for you to complete)
-
-- [ ] Record a 1–2 min screen recording navigating every page on both desktop and mobile viewport sizes
-- [ ] Upload the video to LinkedIn and tag **Neurofive Solutions**
-- [ ] Push this project to a GitHub repo and include the link in your submission
+**Author:** Fiza Zehra
