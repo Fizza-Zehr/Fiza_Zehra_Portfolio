@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Fiza Zehra</title>
+  <meta name="description" content="Get in touch with Fiza Zehra." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="contact">
+  <a href="#main" class="sr-only">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Get in touch</p>
+          <h1 class="section__title">Let's connect</h1>
+          <p class="section__lede">
+            Interested in a project, collaboration, internship opportunity, or simply want to connect?
+            Feel free to reach out through email, GitHub, or LinkedIn.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h2>Other ways to reach me</h2>
+            <p>I'm based in Karachi, Pakistan and would be happy to connect.</p>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Email</span>
+              <a href="mailto:syedafizzazehra.me@gmail.com">syedafizzazehra.me@gmail.com</a>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">GitHub</span>
+              <a href=https://github.com/Fizza-Zehr target="_blank" rel="noopener noreferrer">github.com/FizzaZehra</a>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/fizza-zehra" target="_blank" rel="noopener noreferrer">linkedin.com/in/fizza-zehra</a>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Location</span>
+              <span>Karachi, Pakistan</span>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <p class="form-success" id="formSuccess" hidden role="status"></p>
+            <div class="field">
+              <label for="nameInput">Name</label>
+              <input type="text" id="nameInput" name="name" autocomplete="name" aria-describedby="nameError" />
+              <p class="field__error" id="nameError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="emailInput">Email</label>
+              <input type="email" id="emailInput" name="email" autocomplete="email" aria-describedby="emailError" />
+              <p class="field__error" id="emailError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="subjectInput">Subject</label>
+              <input type="text" id="subjectInput" name="subject" aria-describedby="subjectError" />
+              <p class="field__error" id="subjectError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="messageInput">Message</label>
+              <textarea id="messageInput" name="message" rows="5" aria-describedby="messageError"></textarea>
+              <p class="field__error" id="messageError" role="alert"></p>
+            </div>
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/components.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

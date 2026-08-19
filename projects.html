@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Fiza Zehra</title>
+  <meta name="description" content="Academic and design projects by Fiza Zehra, a Software Engineering student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="projects">
+  <a href="#main" class="sr-only">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Selected work</p>
+          <h1 class="section__title">Projects</h1>
+          <p class="section__lede">
+            A collection of my UI/UX work and current GitHub projects, covering responsive layouts, JavaScript, APIs, forms, local storage, DOM manipulation, animations, and component-based development. Open a GitHub project to explore the repository and source code.
+          </p>
+        </div>
+
+        <div class="filter-bar" id="filterBar" role="group" aria-label="Filter projects by tag"></div>
+        <div class="project-grid" id="projectGrid"></div>
+        <p class="empty-note" id="projectsEmpty" hidden>No projects match that filter yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/components.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
